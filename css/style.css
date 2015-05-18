@@ -1,6 +1,21 @@
+@font-face {
+    font-family: 'Terminus';
+    src: url(font/TerminusTTF.ttf);
+}
+
+@font-face {
+    font-family: 'Terminus-Bold';
+    src: url(font/TerminusTTF-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Terminus-Italic';
+    src: url(font/TerminusTTF-Italic.ttf);
+}
+
 html {
     background-color: #050505;
-    font-family: monospace;
+	font-family: 'Terminus', monospace;
     font-size: 0.84rem;
     color: #DCDCCC;
 }
@@ -22,15 +37,28 @@ body {
 }
 
 footer {
-    font-size: 10px;
+    font-size: 0.81rem;
     padding: 15px;
     text-align: center;
 }
 
+#CCL {
+	border-width:0
+}
+
+footer p {
+	margin: 0px;
+}
+
 time {
-    font-weight: bold;
-    font-size: 0.8;
+	font-family: 'Terminus-Bold', monospace;
+	float: right;
+    font-size: 0.80rem;
     color: #FFF;
+}
+
+li time {
+	float: none;
 }
 
 a {
