@@ -1,0 +1,20 @@
+.Quote {
+    width: 20%;
+    text-align: left;
+    border: 5px solid #DCDCCC;
+    border-radius: 1em;
+    background-color: #DCDCCC;
+    color: #000;
+}
+
+.AuthorQuote {
+    margin-top: -5px;
+    text-align: right;
+}
+
+.AuthorQuote {
+}
+
+footer {
+    clear: both;
+}
